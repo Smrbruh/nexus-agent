@@ -1,0 +1,42 @@
+# NEXUS Agent — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Telegram Bot
+aiogram==3.7.0
+
+# Google Gemini AI
+google-generativeai==0.7.2
+
+# Web Framework (Dashboard)
+flask==3.0.3
+flask-sqlalchemy==3.1.1
+
+# HTTP & Scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# WHOIS lookup
+python-whois==0.9.4
+
+# Database
+# SQLite is built-in to Python — no extra package needed
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Utilities
+aiohttp==3.9.5
+aiofiles==23.2.1
+
+# IP Geolocation (free API, no key needed)
+# Uses ip-api.com via requests
+
+# Code analysis
+pygments==2.18.0
+
+# Scheduling (for future extensions)
+apscheduler==3.10.4
+
+# Logging extras
+colorlog==6.8.2
